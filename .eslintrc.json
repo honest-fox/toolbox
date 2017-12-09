@@ -1,0 +1,12 @@
+// yarn add prettier -D --exact
+// yarn add -D eslint-config-prettier
+
+{
+  "extends": ["prettier"],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
