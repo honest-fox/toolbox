@@ -1,8 +1,11 @@
-// yarn add prettier -D --exact
-// yarn add -D eslint-config-prettier
+// yarn add -D prettier eslint eslint-config-prettier eslint-plugin-prettier
+// (
+//   export PKG=eslint-config-airbnb;
+//   npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add -D "$PKG@latest"
+// )
 
 {
-  "extends": ["prettier"],
+  "extends": ["airbnb", "prettier"],
   "plugins": [
     "prettier"
   ],
