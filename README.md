@@ -10,3 +10,4 @@ All the goodies
 - https://github.com/mrmlnc/vscode-postcss-sorting
 - https://github.com/wesbos/cobalt2-vscode
 - https://github.com/ronnidc/vscode-nunjucks
+- https://github.com/GingerBear/vscode-liquid
