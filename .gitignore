@@ -1,0 +1,30 @@
+# Folders
+.git/
+node_modules/
+public/
+
+# Logs
+logs
+*.log
+
+# Hidden Files
+Desktop.ini
+.DS_Store
+.sass-cache
+.publish
+.env
+.webpack
+.serverless
+.env*
+.eslintcache
+.yarn-integrity
+**/generated/_icons.sass
+
+# Wordpress Ignores
+wp/wp-config.php
+wp/wp-content/uploads
+wp/wp-content/themes/project/assets/
+
+# Ignore SQL files except project's SQL
+*.sql
+!project.sql
