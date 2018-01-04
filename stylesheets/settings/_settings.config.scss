@@ -1,0 +1,25 @@
+$inuit-config: (
+  env: dev,
+  healthcheck: false,
+  debug: true
+);
+
+// inuitcss/settings/settings.core
+$inuit-global-font-size: 16px;
+$inuit-global-line-height: 24px;
+
+$inuit-global-spacing-unit: 20px; // also used for gutter size
+
+$inuit-global-spacing-unit-factor-tiny: 0.25;
+$inuit-global-spacing-unit-factor-small: 0.5;
+$inuit-global-spacing-unit-factor-large: 2;
+$inuit-global-spacing-unit-factor-huge: 4;
+
+// objects/objects.wrapper
+$inuit-wrapper-width: 1024px;
+
+// inuitcss/objects/objects.widths
+$inuit-fractions: 1 2 3 4 12;
+$inuit-offsets: true;
+$inuit-widths-delimiter: \/;
+$inuit-widths-breakpoint-separator: \@;
