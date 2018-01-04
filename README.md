@@ -25,10 +25,9 @@ All the goodies
 
 ### Stylelint
 
-[stylelint-scss](https://github.com/kristerkari/stylelint-scss)
-[stylelint-order](https://github.com/hudochenkov/stylelint-order)
-[stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended)
-[stylelint-config-prettier](https://github.com/shannonmoeller/stylelint-config-prettier)
+- [stylelint-scss](https://github.com/kristerkari/stylelint-scss)
+- [stylelint-order](https://github.com/hudochenkov/stylelint-order)
+- [stylelint-config-prettier](https://github.com/shannonmoeller/stylelint-config-prettier)
 
 ## Setting Up
 
@@ -41,5 +40,5 @@ yarn add -D prettier eslint eslint-config-prettier eslint-plugin-prettier
 
 (export PKG=eslint-config-airbnb; npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add -D "$PKG@latest")
 
-yarn add -D stylelint stylelint-scss stylelint-order stylelint-config-recommended stylelint-config-prettier
+yarn add -D stylelint stylelint-scss stylelint-order stylelint-config-prettier
 ```
