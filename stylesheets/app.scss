@@ -1,11 +1,16 @@
 // ==========================================================================||
-//	Settings
+//  Settings
 // ==========================================================================||
 
+// @import "settings/settings.config";
 // @import "inuitcss/settings/settings.core";
+// @import "settings/settings.colors";
+// @import "settings/settings.breakpoints";
+// @import "settings/settings.typography";
+// @import "settings/settings.globals";
 
 // ==========================================================================||
-//	Tools
+//  Tools
 // ==========================================================================||
 
 // @import "inuitcss/tools/tools.font-size";
@@ -14,7 +19,7 @@
 // @import "sass-mq/mq";
 
 // ==========================================================================||
-//	Generic
+//  Generic
 // ==========================================================================||
 
 // @import "inuitcss/generic/generic.box-sizing";
@@ -23,7 +28,7 @@
 // @import "inuitcss/generic/generic.shared";
 
 // ==========================================================================||
-//	Base Elements
+//  Base Elements
 // ==========================================================================||
 
 // @import "inuitcss/elements/elements.headings";
@@ -32,7 +37,7 @@
 // @import "inuitcss/elements/elements.tables";
 
 // ==========================================================================||
-//	Objects
+//  Objects
 // ==========================================================================||
 
 // @import "inuitcss/objects/objects.block";
@@ -49,13 +54,13 @@
 // @import 'inuitcss/objects/objects.wrapper';
 
 // ==========================================================================||
-//	Components
+//  Components
 // ==========================================================================||
 
 // ...
 
 // ==========================================================================||
-//	Utilities
+//  Utilities
 // ==========================================================================||
 
 // @import "inuitcss/utilities/utilities.clearfix";
