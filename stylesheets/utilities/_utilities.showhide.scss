@@ -1,0 +1,31 @@
+@mixin hf-show-hide($breakpoint:null) {
+  .u-show#{$breakpoint} {
+    display: block;
+
+    &.o-layout__item {
+      display: inline-block;
+    }
+  }
+
+  .u-hide#{$breakpoint} {
+    display: none;
+
+    &.o-layout__item {
+      display: none;
+    }
+  }
+}
+
+@include hf-show-hide();
+
+@each $bp-name, $bp-value in $mq-breakpoints {
+  @include mq($from: $bp-name) {
+    @include hf-show-hide(#{$inuit-widths-breakpoint-separator}#{$bp-name});
+  }
+}
+
+.u-hide\@mobile-only {
+  @include mq($from:mobile, $until:tablet) {
+    display: none;
+  }
+}
