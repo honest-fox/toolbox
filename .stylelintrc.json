@@ -47,10 +47,7 @@
     "declaration-colon-newline-after": "always-multi-line",
     "declaration-colon-space-before": "never",
 
-    "declaration-empty-line-before": [
-      "always",
-      { "except": ["after-comment", "after-declaration", "first-nested"] }
-    ],
+    "declaration-empty-line-before": "null",
 
     "font-family-name-quotes": "always-where-required",
     "function-calc-no-unspaced-operator": true,
@@ -141,19 +138,23 @@
     "value-no-vendor-prefix": true,
 
     "order/order": [
-      {
-        "type": "at-rule",
-        "name": "include",
-        "hasBlock": false
-      },
+      "at-rules",
       "dollar-variables",
       "custom-properties",
       "declarations",
+      "rules",
       {
         "type": "at-rule",
+        "name": "include",
+        "parameter": "mq",
         "hasBlock": true
       },
-      "rules"
+      {
+        "type": "at-rule",
+        "name": "include",
+        "parameter": "breakpoint",
+        "hasBlock": true
+      }
     ],
     "order/properties-alphabetical-order": true
   }
