@@ -1,7 +1,12 @@
 // Use typekit
 $sf-font-type: "typekit"; // google-fonts or webfonts
 
+// Based off styleguide
 $museo-sans: "museo-sans";
+
+// ==========================================================================||
+//	Fonts included in $fonts will be used in utilities
+// ==========================================================================||
 
 $fonts: (
   "museo-sans": $museo-sans
