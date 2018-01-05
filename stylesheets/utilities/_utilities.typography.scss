@@ -1,0 +1,13 @@
+// ==========================================================================||
+//  $typographies map defined in settings.typography
+// ==========================================================================||
+
+@each $typography-namespace, $typography in $typographies {
+  span.u-font-#{$typography-namespace} {
+    display: block;
+  }
+
+  .u-font-#{$typography-namespace} {
+    @include sf-typography($typography-namespace);
+  }
+}
