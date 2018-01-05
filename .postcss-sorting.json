@@ -1,0 +1,22 @@
+{
+  "order": [
+    "at-rules",
+    "dollar-variables",
+    "custom-properties",
+    "declarations",
+    "rules",
+    {
+      "type": "at-rule",
+      "hasBlock": true,
+      "name": "include",
+      "parameter": "mq"
+    },
+    {
+      "type": "at-rule",
+      "hasBlock": true,
+      "name": "include",
+      "parameter": "breakpoint"
+    }
+  ],
+  "properties-order": "alphabetical"
+}
