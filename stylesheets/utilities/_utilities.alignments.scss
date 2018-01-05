@@ -1,0 +1,21 @@
+@mixin hf-text-align($breakpoint:null) {
+  .u-text-center#{$breakpoint} {
+    text-align: center;
+  }
+
+  .u-text-right#{$breakpoint} {
+    text-align: right;
+  }
+
+  .u-text-left#{$breakpoint} {
+    text-align: left;
+  }
+}
+
+@include hf-text-align();
+
+@each $inuit-bp-name, $inuit-bp-value in $mq-breakpoints {
+  @include mq($from: $inuit-bp-name) {
+    @include hf-text-align(#{$inuit-widths-breakpoint-separator}#{$inuit-bp-name});
+  }
+}
