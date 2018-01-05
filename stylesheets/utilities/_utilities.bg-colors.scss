@@ -1,0 +1,9 @@
+// ==========================================================================||
+//  $colors map is defined in settings.colors
+// ==========================================================================||
+
+@each $color-namespace, $color in $colors {
+  .u-bg-#{$color-namespace} {
+    background-color: $color !important;
+  }
+}
