@@ -1,0 +1,17 @@
+// Use typekit
+$sf-font-type: "typekit"; // google-fonts or webfonts
+
+$museo-sans: "museo-sans";
+
+$fonts: (
+  "museo-sans": $museo-sans
+);
+
+$typographies: (
+  "h1":
+    (
+      font: "museo-sans",
+      weight: "black",
+      breakpoints: (mobile: (32px, 38px, 1.5px), desktop: (52px, 63px, 2.5px))
+    ),
+);
