@@ -142,7 +142,6 @@
       "dollar-variables",
       "custom-properties",
       "declarations",
-      "rules",
       {
         "type": "at-rule",
         "name": "include",
@@ -154,7 +153,8 @@
         "name": "include",
         "parameter": "breakpoint",
         "hasBlock": true
-      }
+      },
+      "rules"
     ],
     "order/properties-alphabetical-order": true
   }
