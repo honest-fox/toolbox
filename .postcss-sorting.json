@@ -4,7 +4,6 @@
     "dollar-variables",
     "custom-properties",
     "declarations",
-    "rules",
     {
       "type": "at-rule",
       "hasBlock": true,
@@ -16,7 +15,8 @@
       "hasBlock": true,
       "name": "include",
       "parameter": "breakpoint"
-    }
+    },
+    "rules"
   ],
   "properties-order": "alphabetical"
 }
