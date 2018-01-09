@@ -47,7 +47,7 @@
     "declaration-colon-newline-after": null,
     "declaration-colon-space-before": "never",
 
-    "declaration-empty-line-before": "null",
+    "declaration-empty-line-before": null,
 
     "font-family-name-quotes": "always-where-required",
     "function-calc-no-unspaced-operator": true,
