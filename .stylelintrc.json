@@ -33,7 +33,7 @@
     "comment-no-empty": true,
     "comment-whitespace-inside": "always",
 
-    "declaration-bang-space-before: null,
+    "declaration-bang-space-before": null,
     "declaration-bang-space-after": "never",
 
     "declaration-block-no-shorthand-property-overrides": true,
