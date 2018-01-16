@@ -1,7 +1,7 @@
 $global-radius: 4px;
 
 $global-transition-duration: 200ms;
-$global-transition-timing-function: linear;
+$global-transition-timing-function: cubic-bezier(0.25, 0.01, 0.25, 1);
 $global-transition: all $global-transition-duration $global-transition-timing-function;
 
 $global-box-shadow: 0 4px 2px rgba($black, 0.1);
