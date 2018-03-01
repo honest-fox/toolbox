@@ -32,13 +32,14 @@ All the goodies
 ## Setting Up
 
 ```
-// InuitCSS
-yarn add inuitcss
+// Production Requirements - Blendid + Inuitcss
+yarn init
+yarn add blendid inuitcss
+yarn run blendid -- init
 
-// Linting - prettier with eslint + stylelint
-yarn add -D prettier eslint eslint-config-prettier eslint-plugin-prettier
+// Development Requirements - Linting - prettier with eslint + stylelint
+yarn add -D prettier eslint eslint-config-prettier eslint-plugin-prettier stylelint stylelint-scss stylelint-order stylelint-config-prettier
 
 (export PKG=eslint-config-airbnb; npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add -D "$PKG@latest")
 
-yarn add -D stylelint stylelint-scss stylelint-order stylelint-config-prettier
 ```
