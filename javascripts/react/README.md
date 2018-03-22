@@ -1,9 +1,5 @@
 # Javascript
 
-## Setting Up for VueJS
-
-...
-
 ## Setting Up for React
 
 [Reference](https://github.com/maoueh/blendid-react-example)
