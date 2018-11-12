@@ -34,7 +34,7 @@ All the goodies
 ```
 // Production Requirements - Blendid + Inuitcss
 yarn init
-yarn add blendid inuitcss
+yarn add blendid inuitcss sass-fonts
 yarn run blendid -- init
 
 // Development Requirements - Linting - prettier with eslint + stylelint
